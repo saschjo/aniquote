@@ -20,7 +20,3 @@ function getRandomQuote(){
 
 
 }
-
-/* This code is based on Florin Pop's tutorial on
-Fetch APIs, please check it out and support him
-here: https://www.youtube.com/watch?v=7f2HNadULOs */
