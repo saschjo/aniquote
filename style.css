@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  background: linear-gradient(#fcfcfc, #f5e6e1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+#bottomrow {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+#credit, #notworking {
+  font-size: 0.8em;
+  padding: 0.5%;
+  color: rgb(138, 117, 111);
+}
+
+a {
+  color: rgb(138, 117, 111);
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+  height: 40%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: 0.5s ease-in-out;
+}
+
+#textcontent {
+  width: 100%;
+}
+
+#quote, #character, #anime {
+  color: rgb(85, 68, 63);
+}
+
+#quote {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding: 1.5%;
+}
+
+#character {
+  color: rgb(138, 117, 111);
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#anime {
+  padding: 1%;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: rgb(138, 117, 111);
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  width: 14%;
+  padding: 1.5%;
+  margin-top: 2%;
+  background-color: darksalmon;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1em;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.97);
+  background-color: rgb(209, 123, 102);
+}
+
+button:hover {
+  background-color: rgb(209, 123, 102);
+}
+
+#sparklecontainer  {
+  display: flex;
+  flex-direction: row;
+  height: 7%;
+  width: 99vw;
+  justify-content: space-between;
+}
+
+.sparkle {
+  animation: sparkleflow 5s infinite;
+  color: rgb(236, 161, 135);
+  font-size: 0.7em;
+}
+
+.sparkle-small {
+  animation: sparkleflow 5s infinite;
+  animation-delay: 2s;
+  color: rgb(235, 177, 158);
+  font-size: 0.5em;
+}
+
+@keyframes sparkleflow {
+0% {transform: translateY(0%); opacity: 1;}
+100% {transform: translateY(100%); opacity: 0;}
+}

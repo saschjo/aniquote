@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>AniQuote</title>
+</head>
+<body>
+
+<div id="sparklecontainer">
+    <div class="sparkle">✦</div>
+    <div class="sparkle-small">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle-small">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle-small">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle-small">✦</div>
+    <div class="sparkle">✦</div>
+</div>
+    
+<div class="container">
+    <span id="textcontent">
+        <div id="quote">
+            Press the button to begin.
+        </div>
+        <div id="character">
+            &nbsp;
+        </div>
+        <div id="anime">
+            &nbsp;
+        </div>
+    </span>
+    <button id="quote_btn" onClick="getRandomQuote()">New quote</button>
+</div>
+
+<div id="bottomrow">
+    <div id="credit">Made by amhjo @ GitHub | Powered by <a href="https://animechan.vercel.app/">Animechan</a> API</div>
+    <div id="notworking">Is something not working? The server might be overloaded （；へ：）</div>
+</div>
+
+
+
+<script src="quotefetch.js"></script>
+
+</body>
+</html>
