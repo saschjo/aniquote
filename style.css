@@ -67,14 +67,15 @@ a {
 }
 
 #character {
-  color: rgb(165, 95, 72);
-  font-size: 14px;
+  color: rgb(153, 80, 56);
+  font-size: 15px;
+  padding: 0.8%;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5em;
 }
 
 #anime {
-  padding: 1.5%;
+  padding: 0.8%;
   text-transform: uppercase;
   font-size: 10px;
   color: rgb(151, 121, 112); 
