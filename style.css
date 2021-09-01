@@ -124,7 +124,7 @@ button:hover {
   animation: sparkleflow 5s infinite;
   animation-delay: 2s;
   color: rgb(235, 177, 158);
-  font-size: 5px;
+  font-size: 8px;
 }
 
 @keyframes sparkleflow {
@@ -135,4 +135,26 @@ button:hover {
 @keyframes fadeIn {
   0% {opacity: 0;}
   100% {opacity: 1;}
+  }
+
+  @media only screen and (max-width: 375px) {
+
+    #bottomrow {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    #credit, #notworking {
+      font-size: 9.5px;
+      padding: 0.5%;
+      color: rgb(138, 117, 111);
+    }
+
+    #notworking {
+      text-align: center;
+      color: rgb(179, 159, 154);
+    }
+    
+
   }
