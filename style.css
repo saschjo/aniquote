@@ -20,7 +20,7 @@ body {
 }
 
 #credit, #notworking {
-  font-size: 12px;
+  font-size: 11px;
   padding: 0.3%;
   color: rgb(138, 117, 111);
 }
@@ -30,7 +30,7 @@ body {
 }
 
 a {
-  color: rgb(138, 117, 111);
+  color: rgb(124, 72, 55);
 }
 
 
@@ -40,7 +40,7 @@ a {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  width: 55%;
+  width: 65%;
   height: 40%;
   margin: 0;
   position: absolute;
@@ -48,13 +48,12 @@ a {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   transition: 0.5s ease-in-out;
-  animation: fadeIn 1.5s ease-in;
-  animation-iteration-count: 1;
 }
 
 #textcontent {
   width: 100%;
-
+  animation: fadeIn 1.5s ease-in;
+  animation-iteration-count: 1;
 }
 
 #quote, #character, #anime {
@@ -63,7 +62,7 @@ a {
 
 #quote {
   font-size: 24px;
-  line-height: 1.4em;
+  line-height: 1.5em;
   padding: 1.5%;
 }
 
@@ -71,6 +70,7 @@ a {
   color: rgb(165, 95, 72);
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
 }
 
 #anime {
@@ -79,12 +79,13 @@ a {
   font-size: 12px;
   color: rgb(151, 121, 112); 
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
 }
 
 button {
-  width: 10em;
-  padding: 1.5%;
-  margin-top: 2%;
+  width: 9em;
+  padding: 0.8em;
+  margin-top: 1.5em;
   background-color: darksalmon;
   border: 0;
   color: white;
@@ -97,7 +98,8 @@ button {
 
 button:active {
   transform: scale(0.97);
-  background-color: rgb(209, 123, 102);
+  background-color: white;
+  color: rgb(209, 123, 102);
 }
 
 button:hover {
